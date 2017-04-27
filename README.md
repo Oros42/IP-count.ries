@@ -1,5 +1,5 @@
-# count_countries
-Count countries from log
+# IP count.ries
+Count IP and sort countries from log
 
 Setup
 -----
@@ -12,7 +12,7 @@ Run
 ---
 
 ```bash
-./count_countries.sh <INPUT_LOG_FILE> <OUPUT_DIR>
+./IP-count.ries.sh <INPUT_LOG_FILE> <OUPUT_DIR>
 ```
   
 Output :  
@@ -22,7 +22,7 @@ Output :
 Example
 -------
 ```bash
-$ ./count_countries.sh /var/log/apache2/access.log.1 ./out_exemple.net/
+$ ./IP-count.ries.sh /var/log/apache2/access.log.1 ./out_exemple.net/
 ```
 ```bash
 $ cat ./out_exemple.net/ipv4.csv
