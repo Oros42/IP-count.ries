@@ -57,4 +57,6 @@ $ cat ./out_exemple.net/countries.csv
 1,GB, United Kingdom
 1,ES, Spain
 1,CL, Chile
+$ wc -l ./out_exemple.net/countries.csv
+10 out_exemple.net/countries.csv
 ```
