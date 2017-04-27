@@ -23,6 +23,8 @@ Example
 -------
 ```bash
 $ ./count_countries.sh /var/log/apache2/access.log.1 ./out_exemple.net/
+```
+```bash
 $ cat ./out_exemple.net/ipv4.csv
 31.199.169.45
 66.249.76.45
@@ -46,6 +48,8 @@ $ cat ./out_exemple.net/ipv4.csv
 196.52.43.62
 208.43.225.85
 220.135.159.86
+```
+```bash
 $ cat ./out_exemple.net/countries.csv
 10,US, United States
 3,DE, Germany
@@ -57,6 +61,8 @@ $ cat ./out_exemple.net/countries.csv
 1,GB, United Kingdom
 1,ES, Spain
 1,CL, Chile
+```
+```bash
 $ wc -l ./out_exemple.net/countries.csv
 10 out_exemple.net/countries.csv
 ```
