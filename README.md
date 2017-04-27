@@ -66,3 +66,13 @@ $ cat ./out_exemple.net/countries.csv
 $ wc -l ./out_exemple.net/countries.csv
 10 out_exemple.net/countries.csv
 ```
+  
+TIP
+---
+Put this script in cron.  
+Example :  
+```bash
+$ contrable -e
+10 8 * * * /home/me/IP-count.ries/IP-count.ries.sh /var/log/apache2/my_website.log.1 /home/me/IP-count.ries/my_website/
+```
+Now your goal is to have all countries in the world ^_^  
