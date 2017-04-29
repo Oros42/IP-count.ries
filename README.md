@@ -6,6 +6,8 @@ Setup
 
 ```bash
 sudo apt install geoip-bin
+wget https://raw.githubusercontent.com/Oros42/IP-count.ries/master/IP-count.ries.sh -O IP-count.ries.sh
+chmod +x IP-count.ries.sh
 ```
 
 Run
