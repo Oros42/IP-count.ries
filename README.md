@@ -79,6 +79,10 @@ $ contrable -e
 ```
 Now your goal is to have all countries in the world ^_^  
 
-Interface
----------
-See https://github.com/Oros42/IP-count.ries_interface
+Example of interface
+--------------------
+  
+See https://github.com/Oros42/IP-count.ries_interface  
+  
+![screenshot0](https://ecirtam.net/countries/screenshot.png)  
+[Demo](https://ecirtam.net/countries/)  
